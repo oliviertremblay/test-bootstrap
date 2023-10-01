@@ -1,0 +1,10 @@
+//Mon code CSS - Avant d'importer Bootstrap
+$primary: red;
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//Mon code CSS - Après avoir importé Bootstrap
+@use "header";
+@use "footer";
+
