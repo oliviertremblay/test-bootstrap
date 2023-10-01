@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.1"
+    "bootstrap": "^5.3.1",
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o style/css style/sass"
   }
 }
